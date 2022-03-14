@@ -6,7 +6,7 @@ body {
 
 textarea {
   background: transparent;
-  border: 1px dashed #000;
+  border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
@@ -36,14 +36,6 @@ textarea {
   border-top: 1px solid white;
 }
 
-.row > div {
-  text-align: center;
-  vertical-align: middle;
-  /* line-height: 80px; */
-  white-space: pre-wrap; 
-  height: 80px;
-  border: 1px dashed #000000;
-}
 
 .hour {
   background-color: #ffffff;
