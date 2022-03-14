@@ -40,14 +40,11 @@ $( document ).ready(function () {
             if(hourBlock < currentHour) {
                 //classes found in css file change hour block color
                 $(this).addClass("past");
-                // $(this).removeClass("present");
-                // $(this).removeClass("future");
             }
             //when the hourblock is the same as the current time
             else if (hourBlock === currentHour) {
                 $(this).removeClass("past");
                 $(this).addClass("present");
-                // $(this).removeClass("future");
             }
             //when the hourblock is after the current time  
             else { 
