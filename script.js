@@ -60,27 +60,4 @@ $( document ).ready(function () {
     timeTracker();
 
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 })
